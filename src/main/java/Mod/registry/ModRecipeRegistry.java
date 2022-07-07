@@ -7,7 +7,10 @@ import necesse.inventory.recipe.Recipe;
 
 public class ModRecipeRegistry {
     public static void RegisterAll() {
-
-        Recipes.registerModRecipe(new Recipe( "craftingremote", RecipeTechRegistry.WORKSTATION, new Ingredient[] { new Ingredient("anylog", 10)}));
+        Recipes.registerModRecipe(
+                new Recipe( "craftingremote",
+                        RecipeTechRegistry.WORKSTATION,
+                        new Ingredient[] {
+                                new Ingredient("anylog", 10)}));
     }
 }
