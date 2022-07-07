@@ -1,4 +1,4 @@
-package Mod.registry;
+package RemoteCraftingTable.registry;
 
 import necesse.engine.registries.RecipeTechRegistry;
 import necesse.inventory.recipe.Ingredient;

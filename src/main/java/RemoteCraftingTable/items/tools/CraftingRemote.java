@@ -1,4 +1,4 @@
-package Mod.items.tools;
+package RemoteCraftingTable.items.tools;
 
 import necesse.engine.Screen;
 import necesse.engine.localization.Localization;

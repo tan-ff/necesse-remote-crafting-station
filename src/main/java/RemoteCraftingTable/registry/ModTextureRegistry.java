@@ -1,4 +1,4 @@
-package Mod.registry;
+package RemoteCraftingTable.registry;
 
 import necesse.gfx.gameTexture.GameTexture;
 

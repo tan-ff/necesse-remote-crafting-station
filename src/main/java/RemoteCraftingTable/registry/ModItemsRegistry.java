@@ -1,7 +1,7 @@
-package Mod.registry;
+package RemoteCraftingTable.registry;
 
 import necesse.engine.registries.ItemRegistry;
-import Mod.items.tools.CraftingRemote;
+import RemoteCraftingTable.items.tools.CraftingRemote;
 
 public class ModItemsRegistry {
     public static void RegisterAll() {

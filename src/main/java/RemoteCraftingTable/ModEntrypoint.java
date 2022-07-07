@@ -1,6 +1,6 @@
-package Mod;
+package RemoteCraftingTable;
 
-import Mod.registry.*;
+import RemoteCraftingTable.registry.*;
 import necesse.engine.modLoader.annotations.ModEntry;
 import necesse.gfx.gameTexture.GameTexture;
 
