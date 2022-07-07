@@ -12,5 +12,11 @@ public class ModRecipeRegistry {
                         RecipeTechRegistry.WORKSTATION,
                         new Ingredient[] {
                                 new Ingredient("anylog", 10)}));
+
+        Recipes.registerModRecipe(
+                new Recipe( "ExampleSwordItem",
+                        RecipeTechRegistry.WORKSTATION,
+                        new Ingredient[] {
+                                new Ingredient("anylog", 10)}));
     }
 }
