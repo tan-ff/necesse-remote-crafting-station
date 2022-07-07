@@ -32,4 +32,10 @@ public class CraftingRemote extends Item {
         return tooltips;
     }
 
+    @Override
+    public InventoryItem onAttack(Level level, int x, int y, PlayerMob player, int attackHeight, InventoryItem item, PlayerInventorySlot slot, int animAttack, int seed, PacketReader contentReader) {
+        System.out.println("Test");
+        return item;
+    }
+
 }
