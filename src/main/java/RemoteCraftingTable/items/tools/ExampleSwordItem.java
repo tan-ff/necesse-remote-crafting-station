@@ -19,7 +19,6 @@ public class ExampleSwordItem extends CustomSwordToolItem {
 
     }
 
-
     @Override
     public ListGameTooltips getTooltips(InventoryItem item, PlayerMob perspective) {
         ListGameTooltips tooltips = new ListGameTooltips();
